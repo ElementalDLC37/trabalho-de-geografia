@@ -88,7 +88,7 @@ export default function Content() {
   }
 
   return (
-    <div className="presenter-content" style={{ backgroundImage: `linear-gradient(to left, rgba(0, 0, 0, 0.793), rgb(0, 0, 0)), url(../../../public/backgrounds/${content.background})`}}>
+    <div className="presenter-content" style={{ backgroundImage: `linear-gradient(to left, rgba(0, 0, 0, 0.793), rgb(0, 0, 0)), url(../../../public/${content.background})`}}>
       <header>
         <h3>{ content.name }</h3>
       </header>
