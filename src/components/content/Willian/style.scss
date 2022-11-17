@@ -1,0 +1,44 @@
+h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 13px;
+}
+
+p {
+    margin-bottom: 55px;
+}
+
+.box {
+    height: max-content;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    width: 89%;
+
+    h3 {
+        margin: 0;
+        margin-bottom: 13px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        span {
+            font-size: 5rem;
+            height: min-content;
+            margin-right: 21px;
+            width: min-content;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+hr {
+    margin: 34px 0;
+    width: 89%;
+}

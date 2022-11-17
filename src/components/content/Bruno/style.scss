@@ -1,0 +1,39 @@
+.lateral-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 89%;
+    margin: 3rem 0;
+
+    span {
+        height: min-content;
+        font-size: 5rem;
+        margin-right: 1rem;
+    }
+}
+
+.lateral-container-inverted {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 95%;
+    margin: 3rem 0;
+
+    img {
+        max-width: 233px;
+        border-radius: 13px;
+        margin-left: 2rem;
+    }
+}
+
+.img1-container {
+    width: 100%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+
+    img {
+        max-width: 377px;
+        border-radius: 13px;
+    }
+}
