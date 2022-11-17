@@ -26,6 +26,15 @@
         align-items: center;
         flex-grow: 1;
 
+        button {
+            background: transparent;
+            cursor: pointer;
+            color: #f9f9f9;
+            border: none;
+            border-radius: 13px;
+            margin: 2rem;
+        }
+
         div {
             display: flex;
             font-size: 100%;
