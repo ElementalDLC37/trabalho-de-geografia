@@ -1,9 +1,10 @@
 import Apresentation from "./pages/Apresentation";
-import Content from "./pages/Content";
+import PresentingPage from "./pages/PresentingPage";
 
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
 import './global.scss'
+
 
 function App() {
   const router = createBrowserRouter([
@@ -12,13 +13,13 @@ function App() {
       element: <Apresentation />
     },
     {
-      path: "/content",
-      element: <Content />
+      path: "/presenting-page",
+      element: <PresentingPage />
     },
   ])
 
   return (
-    <Content />
+    <PresentingPage />
   )
 }
 

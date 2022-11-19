@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 
-.presenter-content {
+.presenting-page {
     font-family: 'Montserrat', sans-serif;
     color: #f9f9f9;
     width: 100vw;
@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
 
-    header {
+    .presenting-page-header {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -21,7 +21,7 @@
         }
     }
 
-    main {
+    .presenting-page-main {
         display: flex;
         align-items: center;
         flex-grow: 1;
@@ -49,12 +49,12 @@
         }
     }
 
-    footer {
+    .presenting-page-footer {
         display: flex;
         align-items: center;
         justify-content: center;
 
-        .content {
+        .group-member-content {
             position: absolute;
             top: 0;
             left: 0;
@@ -65,7 +65,7 @@
             justify-content: center;
             background: rgba(0, 0, 0, 0.890);
 
-            .content-container {
+            .group-member-content-container {
                 scroll-behavior: smooth;
                 transition: 10s ease-in-out;
                 height: 70%;
