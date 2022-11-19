@@ -27,7 +27,18 @@ export default function PresentingPage() {
       </main>
       <footer className="presenting-page-footer">
         <AnimateSharedLayout>
-          <GroupMemberContent isOpen={isOpen} groupMemberPresenting={groupMemberPresenting} />
+        <AnimatePresence>
+          {
+            isOpen &&
+            <motion.div
+            className="group-member-content"
+            layoutinitial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}>
+            <div className="group-member-content-container">{ groupMemberPresenting.container }</div>
+            </motion.div>
+          }
+        </AnimatePresence>
           <motion.ul layout initial={{ borderRadius: 25 }}>
             <motion.li layout onClick={() => { setIsOpen(!isOpen) } } initial={{ borderRadius: 10 }}>
               <motion.div className="avatar" layout />
@@ -36,25 +47,6 @@ export default function PresentingPage() {
         </AnimateSharedLayout>
       </footer>
     </div>
-  )
-}
-
-// Components
-
-function GroupMemberContent({ isOpen, groupMemberPresenting }) {
-  return (
-    <AnimatePresence>
-      {
-        isOpen &&
-        <motion.div
-        className="group-member-content"
-        layoutinitial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}>
-        <div className="group-member-content-container">{ groupMemberPresenting.container }</div>
-        </motion.div>
-      }
-    </AnimatePresence>
   )
 }
 

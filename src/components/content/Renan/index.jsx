@@ -8,51 +8,54 @@ import "./style.scss"
 export default function Renan() {
     return (
         <>
-        <div className="box1r">
-            <img src={img1} />
+        <div className="renan-content-box-1 renan-content-box">
+            <img src={img1} className=" renan-image-content renan-image-content-1" />
             <p>
             Políticas públicas são ações e programas desenvolvidos pelo Estado para garantir e 
             colocar em prática direitos que são previstos na Constituição Federal e em outras leis. São 
             medidas e programas criados pelos governos dedicados a garantir o bem estar da população.
             </p>
         </div>
-        <div className="box2r">
+        <span class="material-symbols-outlined renan-content-span-1">more_horiz</span>
+        <div className="renan-content-box-2 renan-content-box">
             <p>
             Mais recentemente, a definição de política pública tem sido entendida apenas como uma ação, e  
             não conceito. 
             </p>
         </div>
-        <span class="material-symbols-outlined">more_horiz</span>
-        <div className="box3r">
+        <span className="material-symbols-outlined renan-content-span-2">more_horiz</span>
+        <div className="renan-content-box-3 renan-content-box">
             <p>
             As políticas públicas afetam a todos os cidadãos, de todas as escolaridades, 
             independente de sexo, raça, religião ou nível social. Com o aprofundamento e 
             a expansão da democracia, as responsabilidades do representante popular se 
-            diversificaram. Hoje, é comum dizer que sua função é promover o bem-estar da 
-            sociedade. O bem-estar da sociedade está relacionado a ações bem desenvolvidas 
+            diversificaram. O bem-estar da sociedade está relacionado a ações bem desenvolvidas 
             e à sua execução em áreas como saúde, educação, meio ambiente, habitação, 
             assistência social, lazer, transporte e segurança, ou seja, deve-se contemplar 
             a qualidade de vida como um todo.
             </p>
-            <img src={img2} />
+            <img src={img2} className="renan-image-content renan-image-content-2" />
         </div>
-        <span class="material-symbols-outlined">more_horiz</span>
-        <div className="box4r">
-            <img src={img3} />
+        <span class="material-symbols-outlined renan-content-span-3">more_horiz</span>
+        <div className="renan-content-box-4 renan-content-box">
+            <img src={img3} className="renan-image-content renan-image-content-3" />
             <p>
             Do ponto de vista teórico-conceitual, a política pública 
             é um campo multidisciplinar que se concentra na interpretação 
             da natureza da política pública e de seus procedimentos. Por isso, 
             uma hipótese de política pública geral busca condensar teorias 
             estabelecidas nos campos da ciência política, economia e sociologia. 
-            A política pública afeta a economia e a sociedade, razão pela qual 
-            qualquer teoria de política pública também precisa articular a 
-            interconexão entre Estado, economia, sociedade e política. É 
-            também por isso que pesquisadores de diferentes disciplinas - 
-            antropologia, ciências sociais aplicadas, ciência política, 
-            economia, geografia, administração, planejamento e sociologia - 
-            compartilham uma inclinação comum no campo e fornecem suporte 
-            teórico e empírico para o Progresso e a cooperação.
+            </p>
+        </div>
+        <span class="material-symbols-outlined renan-content-span-4">more_horiz</span>
+        <div className="renan-content-box-5 renan-content-box">
+            <img src="https://al.se.leg.br/wp-content/uploads/2018/11/curso_online_gratuito_politicas_publicas-01.jpg" className="renan-image-content renan-image-content-4" />
+            <p>
+            Do ponto de vista teórico-conceitual, a política pública 
+            é um campo multidisciplinar que se concentra na interpretação 
+            da natureza da política pública e de seus procedimentos. Por isso, 
+            uma hipótese de política pública geral busca condensar teorias 
+            estabelecidas nos campos da ciência política, economia e sociologia. 
             </p>
         </div>
         </>
