@@ -19,11 +19,15 @@ export default function PresentingPage() {
         <h3>{ groupMemberPresenting.name }</h3>
       </header>
       <main className="presenting-page-main">
-        <button onClick={() => { returnGroupMemberPresenting(groupMemberPresenting, setGroupMemberPresenting) }}>Voltar</button>
+        <button onClick={() => { returnGroupMemberPresenting(groupMemberPresenting, setGroupMemberPresenting) }}>
+          <span class="material-symbols-outlined">arrow_back</span>
+        </button>
         <div>
           <h1>{ groupMemberPresenting.title }</h1>
         </div>
-        <button onClick={() => { nextGroupMemberPresenting(groupMemberPresenting, setGroupMemberPresenting) }}>Próximo</button>
+        <button onClick={() => { nextGroupMemberPresenting(groupMemberPresenting, setGroupMemberPresenting) }}>
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </button>
       </main>
       <footer className="presenting-page-footer">
         <AnimateSharedLayout>
