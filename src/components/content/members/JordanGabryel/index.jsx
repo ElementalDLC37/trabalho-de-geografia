@@ -1,7 +1,7 @@
-import img1 from "../../../../public/assets/JordanGabryel/img1.jfif"
-import img2 from "../../../../public/assets/JordanGabryel/img2.jpg"
-import img3 from "../../../../public/assets/JordanGabryel/img3.jfif"
-import img4 from "../../../../public/assets/JordanGabryel/img4.jfif"
+import img1 from "../../../../../public/assets/JordanGabryel/img1.jfif"
+import img2 from "../../../../../public/assets/JordanGabryel/img2.jpg"
+import img3 from "../../../../../public/assets/JordanGabryel/img3.jfif"
+import img4 from "../../../../../public/assets/JordanGabryel/img4.jfif"
 
 import "./style.scss"
 

@@ -1,9 +1,9 @@
-import Renan from "../components/content/Renan";
-import Bryan from "../components/content/Bryan";
-import Willian from "../components/content/Willian";
-import Bruno from "../components/content/Bruno";
-import JordanGabryel from "../components/content/JordanGabryel";
-import Abner from "../components/content/Abner";
+import Renan from "../components/content/members/Renan";
+import Bryan from "../components/content/members/Bryan";
+import Willian from "../components/content/members/Willian";
+import Bruno from "../components/content/members/Bruno";
+import JordanGabryel from "../components/content/members/JordanGabryel";
+import Abner from "../components/content/members/Abner";
 
 export const groupMembers = [
     {

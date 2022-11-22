@@ -1,4 +1,4 @@
-import img1 from "../../../../public/assets/Bryan/img1.webp"
+import img1 from "../../../../../public/assets/Bryan/img1.webp"
 
 import "./style.scss"
 

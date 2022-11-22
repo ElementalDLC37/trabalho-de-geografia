@@ -1,6 +1,6 @@
-import img1 from "../../../../public/assets/Renan/img1.jpg"
-import img2 from "../../../../public/assets/Renan/img2.jfif"
-import img3 from "../../../../public/assets/Renan/img3.jfif"
+import img1 from "../../../../../public/assets/Renan/img1.jpg"
+import img2 from "../../../../../public/assets/Renan/img2.jfif"
+import img3 from "../../../../../public/assets/Renan/img3.jfif"
 
 import "./style.scss"
 
